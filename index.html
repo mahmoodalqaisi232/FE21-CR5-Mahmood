@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font -->
+    <link href="http://fonts.cdnfonts.com/css/aquire" rel="stylesheet">
+    <!-- animate CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <title>Code Review 5</title>
 </head>
 <body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark sti bg-transparent">
+            <div class="container-fluid">
+              <p class="navbar-brand fs-2 fw-normal text-warning font">Travel-o-Matic </p>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- <ul class="navbar-nav">
+                  <li class="nav-item p-2 ">
+                    <a class="nav-link text-white fw-normal fs-4 bg-secondary rounded-3   " href="#">Places</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link text-white fw-normal fs-4 bg-secondary rounded-3 " href="#">Restaurants</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link text-white fw-normal fs-4 bg-secondary rounded-3" href="#">Events</a>
+                  </li>
+                  
+                </ul> -->
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class="d-flex pt-4 justify-content-center text-center">
+      <div class=" bg-dark text-white p-2 pt-2 rounded w-25 animate__animated animate__lightSpeedInLeft animate__delay-2s"> Places </div>
+      <div class="bg-dark text-white p-2 pt-2 rounded w-25"> Events </div>
+      <div class="bg-dark text-white p-2 pt-2 rounded w-25 animate__animated  animate__lightSpeedInRight animate__delay-2s">Restaurants</div>
+    </div>
+
+
+
+    <!-- Places Container -->
+    <div class=" container border mt-4">
+      <h1 class="font text-center">Places</h1>
+      <div class="row" id="placesRow"></div></div>
+
+        <!-- Restaurants Container -->
+      <div class=" container border mt-4">
+        <h1 class="font text-center">Restaurants</h1>
+  
+        <div class="row" id="restaurantsRow"></div></div>
+
+
+         <!-- Events Container -->
+      <div class=" container border mt-4">
+        <h1 class="font text-center">Events</h1>
+  
+        <div class="row" id="eventsRow"></div></div>
+       
+        
+
+  </main>
+ 
+  
+
+      
+
+
+
+
+
+    <!-----------------js --------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="ts/script.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/aquire');
+
+header{
+    background-image: url("/img/sculpture-1268288_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    border-bottom-right-radius: 30% ;
+    padding-top: 2vh;
+    
+}   
+
+.font{
+    font-family: 'Aquire', sans-serif!important;
+}
+
+
+
+
+

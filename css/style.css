@@ -13,9 +13,55 @@ header{
 
 .font{
     font-family: 'Aquire', sans-serif!important;
+    
+}
+.CardFont{
+    font-size: 0.9rem!important;
+}
+/* .listSpan{
+    padding-left: -2vw!important;
+} */
+
+.card{
+    padding: 0 1vw 0 0!important;
+    transition: all!important;
+}
+/* .card:hover{
+    transform: scale(1.1);
+} */
+.cardbody{
+    height: 100%;
+    margin: 0!important;
+    
+
+}
+.ImgContainer{
+    display: block;
+    height: 60vh ;
+
+}
+.top, .middle, .footer{
+    display: block;
+    height: 20vh;
+}   
+
+
+
+.cardImg{
+    width: 100%;
+    max-height: 40vh!important;
+    min-height: 40vh!important;
+    object-fit: cover;
+
+
 }
 
+.height{
+    min-height: 50vh;
+    max-height: 50vh;
+}
 
-
-
-
+footer{
+    height: 20vh;
+    background-color: #7EA097;
+}

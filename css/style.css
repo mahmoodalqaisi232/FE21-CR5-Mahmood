@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/aquire');
 
 header{
-    background-image: url("/img/sculpture-1268288_1280.jpg");
+    background-image: url("../img/sculpture-1268288_1280.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
